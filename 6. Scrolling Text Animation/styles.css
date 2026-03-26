@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html , body {
+    background-color: black;
+    color: white;
+}
+
+.page1{
+    height: 90vh;
+} 
+
+.page2 , .page3 {
+    height: 100vh;
+}
+
+.page1{
+    background-color: aqua;
+}
+
+.page2{
+    background-color: black;
+    overflow: hidden;
+}
+
+.page3{
+    background-color: brown;
+}
+
+.margue{
+    color: black;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+#move{
+    background-color: yellow;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 1vw;
+    gap: 5vw;
+    width: fit-content;
+}
